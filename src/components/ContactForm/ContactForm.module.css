@@ -1,0 +1,35 @@
+.contacts_input {
+  display: block;
+  width: 250px;
+  height: 40px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.inputs_bar {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts_label {
+  font-size: 24px;
+  font-weight: 500;
+  color: tomato;
+}
+
+.contacts_label + .contacts_label {
+  margin-left: 30px;
+}
+
+.contacts_btn {
+  display: block;
+  margin: 50px auto 0;
+  width: 200px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}

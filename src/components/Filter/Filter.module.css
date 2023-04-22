@@ -1,0 +1,16 @@
+.filter_label {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+  color: tomato;
+}
+
+.filter_input {
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}

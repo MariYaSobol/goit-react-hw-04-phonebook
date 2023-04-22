@@ -1,0 +1,25 @@
+.contacts_box {
+  padding: 20px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 100px;
+  grid-column-gap: 100px;
+  grid-row-gap: 5px;
+  align-items: center;
+  list-style: none;
+  justify-items: center;
+}
+
+.del_btn {
+  margin-left: 15px;
+  height: 30px;
+}
+
+.contacts_item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contacts_text {
+  font-size: 24px;
+}
